@@ -6,6 +6,6 @@ class IsAuthorOrReadOnly(permissions.BasePermission):
         # Разрешаем чтение для всех
         if request.method in permissions.SAFE_METHODS:
             return True
-        
+
         # Разрешаем изменение только автору
         return obj.author == request.user
