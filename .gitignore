@@ -149,4 +149,13 @@ dmypy.json
 static/
 yatube_api/posts/static/
 media/
-
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+.env
+.DS_Store
+*.log
+local_settings.py
+media/
+comment.json
